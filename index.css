@@ -3,13 +3,18 @@
 }
 
 .year {
-  font-weight: bold
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.year-title td {
+  text-align: right;
 }
 
 .title-column {
   min-width: 240px;
-  max-width: 300px;
-  flex: 1
+  max-width: 240px;
+  flex: 1;
 }
 
 .data-columns {
@@ -18,7 +23,26 @@
 }
 
 .data-columns td {
-  min-width: 110px;
+  min-width: 80px;
+  max-width: 120px;
+  text-align: right;
+}
+
+.age td {
+  text-align: right;
+  font-style: italic;
+}
+
+.taxes td {
+  color: red;
+}
+
+.income-total {
+  background-color: lightblue
+}
+
+.income-total-title {
+  font-weight: bold
 }
 
 .navigation {
@@ -28,4 +52,9 @@
 
 .navigation button {
   width: 120px;
+}
+
+.after-tax {
+  font-weight: bold;
+  font-size: 16px;
 }
