@@ -1,3 +1,31 @@
 .table {
   display: flex
 }
+
+.year {
+  font-weight: bold
+}
+
+.title-column {
+  min-width: 240px;
+  max-width: 300px;
+  flex: 1
+}
+
+.data-columns {
+  flex: 4;
+  overflow: auto
+}
+
+.data-columns td {
+  min-width: 110px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end
+}
+
+.navigation button {
+  width: 120px;
+}
